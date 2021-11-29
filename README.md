@@ -29,7 +29,7 @@ To visualize the upwelling there are various ways
 3. SST: As the water is also upwelling we can predict a slight cold water right at the upwelling location. 
 
 
-Hence we need wind, surface current, SSH, and chlorophyll dataset, we did not used the SST for this project. 
+Hence we need wind, surface current, SSH, and chlorophyll dataset, we did not use the SST for this project. 
 
 
 The data sets are used from the sources:
