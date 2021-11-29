@@ -36,8 +36,7 @@ The data sets are used from the sources:
 
 Chlorophyll Concentration: [Global Ocean Chlorophyll, PP and PFT (Copernicus-GlobColour) from Satellite Observations: Daily (Reprocessed from 1997) Copernicus Marine Service](https://resources.marine.copernicus.eu/product-detail/OCEANCOLOUR_GLO_CHL_L3_REP_OBSERVATIONS_009_085/INFORMATION)
 
-Sea Surface Height anomaly: [GLOBAL OCEAN GRIDDED L4 SEA SURFACE HEIGHTS AND DERIVED VARIABLES REPROCESSED (1993-ONGOING) Copernicus Marine Service]
-(https://resources.marine.copernicus.eu/product-detail/SEALEVEL_GLO_PHY_L4_REP_OBSERVATIONS_008_047/INFORMATION)
+Sea Surface Height anomaly: [GLOBAL OCEAN GRIDDED L4 SEA SURFACE HEIGHTS AND DERIVED VARIABLES REPROCESSED (1993-ONGOING) Copernicus Marine Service](https://resources.marine.copernicus.eu/product-detail/SEALEVEL_GLO_PHY_L4_REP_OBSERVATIONS_008_047/INFORMATION)
 
 Ocean Surface Current: [OSCAR](http://apdrc.soest.hawaii.edu/datadoc/podaac_oscar.php )
 
