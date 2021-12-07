@@ -46,7 +46,7 @@ Wind: [ECMWF–ERA5 monthly averaged data on pressure levels from 1979 to presen
 Data Processing:
 
 
-Because we are using datasets from various sources, their nomenclature are differnt, such as the coordinate; longitude is named as "longitude", "lon", and "LON1_1021" on different dataset. Hence, to make our life easy we first converted our dataset to [CF 1.9](https://cfconventions.org/Data/cf-conventions/cf-conventions-1.8/cf-conventions.html#instrument-data-ex)  compliant coordinate names. Using the `make_cf_compliant(ds)` function. 
+Because we are using datasets from various sources, their nomenclature are different, such as the coordinate; longitude is named as "longitude", "lon", and "LON1_1021" on different dataset. Hence, to make our life easy we first converted our dataset to [CF 1.9](https://cfconventions.org/Data/cf-conventions/cf-conventions-1.8/cf-conventions.html#instrument-data-ex)  compliant coordinate names. Using the `make_cf_compliant(ds)` function. 
 
 
 Then as we are comparing winds and currents in our project we wanted to smooth out the wind and current fields and on same latitude and longitude. To do that we first interpolated the data to one grid (we interpolated the wind data as it was higher resolution than OSCAR current data). Then we coarsen the data to 10 degree latitude and longitude average, and quaterly(3 month average) in time.
